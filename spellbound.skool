@@ -1,4 +1,10 @@
+; SkoolKit disassembly for Spellbound (48k)
+;
+; Copyright (c) 2017 Philip M. Anderson (this disassembly)
+; Copyright (c) 1985 David Jones / Mastertronic (Spellbound)
+@start=26627
 
+@org
 ; Temporary Data Storage Area
 ;
 ; Used by the Draw Magic Knight routine at #R39224
