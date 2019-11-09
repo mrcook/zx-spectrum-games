@@ -1,4 +1,10 @@
+; SkoolKit disassembly for Tir Na Nog (48k)
+;
+; Copyright (c) Lunysoft (this disassembly)
+; Copyright (c) 1984 Carter Follis Software Associates / Gargoyle Games Ltd. (Tir Na Nog)
+@start=$F51E
 
+@org
 ; Data block at 5A26
 @label=Attr_WarningText
 b$5A26 DEFB $07,$07,$07,$07,$07,$07,$07,$07
