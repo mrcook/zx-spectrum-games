@@ -8,6 +8,7 @@ through-the-trap-door.tzx
 through-the-trap-door.z80
 
 ; The routine at 63000: Loads loading screen and main game code
+--ram load=4,63000
 
 ; Loads tape block #5 (loading screen) to address 40000.
 ; NOTE: will need to be manually loaded to SCREEN.
