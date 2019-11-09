@@ -1,4 +1,10 @@
+; SkoolKit disassembly for Knight Tyme (48k)
+;
+; Copyright (c) 2017 Philip M. Anderson (this disassembly)
+; Copyright (c) 1986 David Jones / Mastertronic (Knight Tyme)
+@start=26624
 
+@org
 ; Space for Calculations / Storage (e.g. Scrolling Graphics)
 b23296 DEFB 0,0,0,0,0,0,0,0
  23304 DEFB 0,0,0,0,0,0,0,0
