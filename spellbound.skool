@@ -234,10 +234,12 @@ b23507 DEFB 0,0,0,0,0,0,0,0
  23547 DEFB 0,0,0,0,0
 
 ; VARS system variable
-b23627 DEFW 23849
+@ssub=DEFW 23849
+b23627 DEFW 0
 
 ; PROG system variable
-b23635 DEFW 23755
+@ssub=DEFW 23755
+b23635 DEFW 0
 
 ; Interrupt Routine Flags
 ;
@@ -13937,7 +13939,8 @@ b65492 DEFB 0,0,0,0,0,0,0,0
 ; Interrupt Routine (Jump 2)
 ;
 ; Note - original values here are 16, 16, 16. These are modified to the JP instruction by instructions between 26653 and 26662
-c65524 JP 54853                      ; Jump to main part of interrupt routine at #R54853
+@ssub=JP 54853
+c65524 DEFB 0,0,0                    ; Jump to main part of interrupt routine at #R54853
 
 ; Unused
 b65527 DEFB 0
@@ -13963,4 +13966,5 @@ b65534 DEFB 60
 ; Interrupt Routine (Jump 1)
 ;
 ; Note - original value at 65535 is 0. This is modified to the JR instruction by instruction at 26650. The operand comes from next byte (location 0 in ROM.)
-c65535 JR 65524                      ; Jump to next part of interrupt routine
+@ssub=JR 65524
+c65535 NOP                           ; Jump to next part of interrupt routine
