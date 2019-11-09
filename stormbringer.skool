@@ -1,4 +1,10 @@
+; SkoolKit disassembly for Stormbringer (48k)
+;
+; Copyright (c) 2017 Philip M. Anderson (this disassembly)
+; Copyright (c) 1987 David Jones / Mastertronic (Stormbringer)
+@start=37632
 
+@org
 ; Miscellaneous Data 1
 b23296 DEFB 0,0                      ; Temporary storage (e.g. scrolling graphics)
  23298 DEFB 0                        ; Terrain Interaction Parameter Painting Bitmap for 2x2 block currently being drawn
