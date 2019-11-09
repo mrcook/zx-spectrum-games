@@ -209,6 +209,20 @@ b23502 DEFB 0                        ; (00) - USS Pisces, 0 (The Recreation Room
  23543 DEFB 0,0,0,0,0,0,0,0
  23551 DEFB 0
 
+; VARS system variable
+@ssub=DEFW 23856
+b23627 DEFW 0
+ 23629 DEFB 0,0,0,0,0,0
+
+; PROG system variable
+@ssub=DEFW 23755
+b23635 DEFW 0
+ 23637 DEFB 0,0,0,0,0,0,0,0
+ 23645 DEFB 0,0,0,0,0,0,0,0
+ 23653 DEFB 0,0,0,0,0,0,0,0
+ 23661 DEFB 0,0,0,0,0,0,0,0
+ 23669 DEFB 0,0,0,0,0,0
+
 ; Interrupt Routine Flags
 ;
 ; Bitwise flags which determine which things occur upon executing the Interrupt Routine. The bits are as follows:
@@ -826,6 +840,26 @@ b26240 DEFW 16384
  26618 DEFW 21984
  26620 DEFW 22240
  26622 DEFW 22496
+
+; Initialise Interrupt Code then Display and Handle Input Device Selection Menu
+c26624 LD (IY+87),3                  ; Set P-FLAG bits 0 and 1 (OVER 1) (IY = 23610)
+ 26628 LD HL,(55968)                 ; Load HL with address of graphic data for Advert's mask...
+ 26631 LD (56082),HL                 ; ...and store at 56082 (graphic data for graphic 33)
+ 26634 LD HL,55918                   ; Load HL with address of Unknown Mask Data...
+ 26637 LD (56084),HL                 ; ...and store at 56084 (mask data for graphic 33)
+ 26640 LD A,(23728)                  ; If Cheat Mode Enabled Flag is reset (see trivia)...
+ 26643 OR A                          ; ...
+ 26644 JR Z,26650                    ; ...then skip ahead to #R26650
+ 26646 XOR A                         ; Set initial room of Valid I.D. Card to USS Pisces, 0, "The Recreation Room" (00)...
+ 26647 LD (36920),A                  ; ...
+ 26650 LD A,24                       ; Put JR instruction at 65535 for jumping to interrupt routine...
+ 26652 LD (65535),A                  ; ...
+ 26655 LD A,195                      ; Load first byte of interrupt routine with 195...
+ 26657 LD (65524),A                  ; ...representing "JP"
+ 26660 LD HL,53479                   ; Load following two bytes of interrupt routine with 53479...
+ 26663 LD (65525),HL                 ; ...to make "JP 53479"
+ 26666 LD A,57                       ; Load I register with 57 (for interrupt routine)...
+ 26668 LD I,A                        ; ...
 
 ; Display input device selection menu
 ;
