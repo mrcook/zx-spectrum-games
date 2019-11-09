@@ -1,0 +1,10 @@
+# Notes
+
+There are two sections of data that have incorrect number of bytes for the
+assigned address values:
+
+* ActionObjectDroppedPtr/AreaData0
+  - `$E00F DEFW $4F01`, but the following address is `$E010`.
+* CentralPlainsSidhe
+  - `$E57C DEFW $016C`, but the following address is `$E57D`.
+  - `$E57D DEFW $5E01`, but the following address is `$E57E`.
