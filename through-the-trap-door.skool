@@ -1,4 +1,10 @@
+; SkoolKit disassembly for Through the Trap Door
+;
+; Copyright (c) 2017 Philip M. Anderson (this disassembly)
+; Copyright (c) 1987 Don Priestley / Piranha / Alternative Software Ltd (Through the Trap Door)
+@start=34200
 
+@org
 ; System Data / BASIC Program / System Variables
 b23296 DEFB 0,0,0,0,0,0,0,0
  23304 DEFB 0,0,0,0,0,0,0,0
