@@ -134,8 +134,10 @@ b$5C30 DEFB $00,$00,$00,$00,$00,$00,$00,$FC
  $5E08 DEFB $02,$4D,$00,$DB,$02,$4D,$00,$E0
  $5E10 DEFB $5B,$1E,$00,$CF,$FD,$CC,$FD,$01
  $5E18 DEFB $02,$F7,$F4,$1D,$F5,$33,$F5,$00
- $5E20 DEFB $00,$00,$00,$00,$C3,$82,$DF,$C3
- $5E28 DEFB $CF,$5E
+ $5E20 DEFB $00,$00,$00,$00
+
+b$5E24 DEFB $C3,$82,$DF
+ $5E27 DEFB $C3,$CF,$5E
 
 ; Vectors 1
 ;
@@ -3790,8 +3792,7 @@ c$768A LD A,(IX+$02)                 ; Get item's bitmap index.
  $76B5 ADC HL,HL
  $76B7 EX DE,HL
  $76B8 LD L,(IX+$00)
- $76BA NOP                           ; Get item's primary position. (Adding 1 if width is odd).
- $76BB LD H,$00
+ $76BB LD H,$00                      ; Get item's primary position. (Adding 1 if width is odd).
  $76BD RLCA
  $76BE ADC HL,HL
  $76C0 LD A,(IX+$02)                 ; Get bitmap index again.
@@ -11239,7 +11240,7 @@ b$DFD2 DEFB $03                      ; Camera direction. This is local to the ar
 @label=ActionObjectDroppedPtr
  $E00B DEFW $0000                    ; Pointer to object being dropped.
  $E00D DEFW $E60D
- $E00F DEFW $4F01
+ $E00F DEFB $01
 
 ; Area Data
 ;
@@ -11764,15 +11765,15 @@ b$E3E5 DEFB $00,$00
  $E57A DEFB $00                      ; [3]
  $E57B DEFB $00                      ; [4]
  $E57C DEFW $016C                    ; [5] N/S position.
- $E57D DEFW $5E01                    ; [7] E/W position.
- $E57E DEFB $5E                      ; [9]
- $E57F DEFB $00                      ; [A]
- $E580 DEFB $13                      ; [B]
- $E581 DEFB $0A                      ; [C]
- $E582 DEFB $BA                      ; [D]
- $E583 DEFB $5A                      ; [E]
- $E584 DEFB $00                      ; [F] Count down. Baddy only acts when zero.
- $E585 DEFB $00,$00,$00,$00          ; [10]...
+ $E57E DEFW $5E01                    ; [7] E/W position.
+ $E580 DEFB $13                      ; [9]
+ $E581 DEFB $0A                      ; [A]
+ $E582 DEFB $BA                      ; [B]
+ $E583 DEFB $5A                      ; [C]
+ $E584 DEFB $00                      ; [D]
+ $E585 DEFB $00                      ; [E]
+ $E586 DEFB $00                      ; [F] Count down. Baddy only acts when zero.
+ $E587 DEFB $00,$00                  ; [10]...
  $E589 DEFB $21,$E4
 ; Paths
 @label=PathData3

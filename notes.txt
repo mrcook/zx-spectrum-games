@@ -8,3 +8,5 @@ assigned address values:
 * CentralPlainsSidhe
   - `$E57C DEFW $016C`, but the following address is `$E57D`.
   - `$E57D DEFW $5E01`, but the following address is `$E57E`.
+* Actions_CreateObj_1
+  - `$76BA NOP` should be removed
