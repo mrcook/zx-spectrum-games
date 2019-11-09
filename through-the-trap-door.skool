@@ -68,10 +68,12 @@ b23296 DEFB 0,0,0,0,0,0,0,0
  23624 DEFB 9,0,0
 
 ; VARS system variable
-b23627 DEFW 23909
+@ssub=DEFW 23909
+b23627 DEFW 0
 
 ; PROG system variable
-b23635 DEFW 23755
+@ssub=DEFW 23755
+b23635 DEFW 0
 
 ; Basic loader
 ;
