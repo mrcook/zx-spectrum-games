@@ -1,4 +1,10 @@
+; SkoolKit disassembly for Dun Darach
+;
+; Copyright (c) 2019 Lunysoft (this disassembly)
+; Copyright (c) 1985 Carter Follis Software Associates / Gargoyle Games Ltd. (Dun Darach)
+@start=$6908
 
+@org
 ; ATTR
 b$5800 DEFB $00,$00,$00,$00,$00,$00,$00,$00
  $5808 DEFB $00,$00,$00,$00,$00,$00,$00,$00
