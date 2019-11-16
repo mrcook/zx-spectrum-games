@@ -1,0 +1,18 @@
+; tap2sna.py file for Spellbound. Run
+;
+;   $ tap2sna.py @through-the-trap-door.t2s
+;
+; to create a Z80 snapshot.
+
+through-the-trap-door.tzx
+through-the-trap-door.z80
+
+; The routine at 63000: Loads loading screen and main game code
+--ram load=4,63000
+
+; Loads tape block #5 (loading screen) to address 40000.
+; NOTE: will need to be manually loaded to SCREEN.
+--ram load=5,40000
+
+; Load the 32860 bytes from tape block #6 to address 27000.
+--ram load=6,27000
