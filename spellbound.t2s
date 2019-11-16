@@ -1,0 +1,12 @@
+; tap2sna.py file for Spellbound. Run
+;
+;   $ tap2sna.py @spellbound.t2s
+;
+; to create a Z80 snapshot.
+
+spellbound-48k.tzx
+spellbound.z80
+
+; The routine at 23296: Load main game code, loads the 39470 bytes
+; from tape block #6 to address 26064.
+--ram load=6,26064
