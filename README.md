@@ -14,8 +14,8 @@ Over the years I've encountered a number of disassemblies provided in the same
 format such as _Knight Tyme_ and _Spellbound_.
 
 So, one Saturday toward the end of 2019 I decided to have a little fun with a
-_weekend project_ and write a small script to reverse these HTML pages back to
-a Skoolkit `.skool` project file.  
+_weekend project_ and write a small tool ([html2skool](https://github.com/mrcook/skoolkit-html2skool))
+to reverse these HTML pages back to a Skoolkit `.skool` project file.  
 
 _Ask forgiveness, not permission._
 
@@ -33,14 +33,14 @@ know. My email is available in the `git log`.
   - Through The Trap Door
 
 
-# General Skoolkit Usage
+## General Skoolkit Usage
 
 Visit [Skoolkit](https://skoolkit.ca/) and read the docs.
 
 You'll need to the original `.tzx` tape image, easily found on the inter-webs.
 
 
-# Related Tools
+## Related Tools
 
 If you're a **SublimeText** editor user, I've created syntax highlighting
 plugins to make viewing `.skool` and `.asm` files a little nicer:
@@ -48,7 +48,7 @@ plugins to make viewing `.skool` and `.asm` files a little nicer:
 * [SkoolkitZ80](https://packagecontrol.io/packages/SkoolkitZ80) syntax package.
 * [Z80 Assembly](https://packagecontrol.io/packages/Z80%20Assembly) syntax package.
 
-## TZX Files
+### Working with TZX Files
 
 If you have a need to read the metadata found in Spectrum `.tzx` or `.tap`
 files, checkout my [`tzxit`](https://github.com/mrcook/tzxit) terminal app,
