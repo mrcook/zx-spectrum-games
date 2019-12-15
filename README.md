@@ -48,11 +48,12 @@ plugins to make viewing `.skool` and `.asm` files a little nicer:
 * [SkoolkitZ80](https://packagecontrol.io/packages/SkoolkitZ80) syntax package.
 * [Z80 Assembly](https://packagecontrol.io/packages/Z80%20Assembly) syntax package.
 
-### Working with TZX Files
+### Reading Tape and Disk Files
 
-If you have a need to read the metadata found in Spectrum `.tzx` or `.tap`
-files, checkout my [`tzxit`](https://github.com/mrcook/tzxit) terminal app,
-which happens to be written in the Go language.
+If you have a need to read the metadata found in the tape and disk files used
+by emulators - such as the ZX Spectrum `tzx` or Commodore 64 `t64` files - you
+may be interested in my [`RetroIO`](https://github.com/mrcook/retroio) terminal
+app, which happens to be written in the Go language (golang).
 
 Cheers,  
 Michael Cook
