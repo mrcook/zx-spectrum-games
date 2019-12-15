@@ -15,7 +15,9 @@ format such as _Knight Tyme_ and _Spellbound_.
 
 So, one Saturday toward the end of 2019 I decided to have a little fun with a
 _weekend project_ and write a small tool ([html2skool](https://github.com/mrcook/skoolkit-html2skool))
-to reverse these HTML pages back to a Skoolkit `.skool` project file.  
+to reverse these HTML pages back to a Skoolkit `.skool` project file.
+
+This collection also contains hand converted `asm`->`skool` disassemblies.
 
 _Ask forgiveness, not permission._
 
@@ -31,6 +33,10 @@ know. My email is available in the `git log`.
   - Spellbound (48K)
   - Stormbringer (48k)
   - Through The Trap Door
+* [Christopher Jon Wild](http://www.icemark.com/downloads/)
+  - Alien8
+* [tcdev](http://members.iinet.net.au/~msmcdoug/zx/)
+  - Alien8
 
 
 ## General Skoolkit Usage
@@ -55,5 +61,5 @@ by emulators - such as the ZX Spectrum `tzx` or Commodore 64 `t64` files - you
 may be interested in my [`RetroIO`](https://github.com/mrcook/retroio) terminal
 app, which happens to be written in the Go language (golang).
 
-Cheers,  
+Cheers,
 Michael Cook
