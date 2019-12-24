@@ -37,6 +37,7 @@ know. My email is available in the `git log`.
   - Alien8
 * [tcdev](http://members.iinet.net.au/~msmcdoug/zx/)
   - Alien8
+  - Knight Lore
 
 
 ## General Skoolkit Usage
