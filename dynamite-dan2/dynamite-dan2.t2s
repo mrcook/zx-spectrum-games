@@ -1,0 +1,12 @@
+; tap2sna.py file for Dynamite Dan 2. Run
+;
+;   $ tap2sna.py @dynamite-dan2.t2s
+;
+; to create a Z80 snapshot.
+
+dynamite-dan2.tzx
+dynamite-dan2.z80
+
+--ram load=4,$5D74 ;   400 bytes ; Game loader (correct address?)
+--ram load=5,$4000 ;  6913 bytes ; Loading SCREEN$
+--ram load=6,$66FF ; 38910 bytes ; Game code

@@ -25,19 +25,21 @@ This collection is made from the excellent work of other people. If you are
 one of these, and wish me to remove the included disassembly, please let me
 know. My email is available in the `git log`.
 
-* [Lunysoft](http://www.luny.co.uk)
-  - Tir Na Nog
-  - Dun Darach
 * [Philip Anderson](http://community.dur.ac.uk/philip.anderson/disassemblies/)
   - Knight Tyme (48K)
   - Spellbound (48K)
   - Stormbringer (48k)
   - Through The Trap Door
-* [Christopher Jon Wild](http://www.icemark.com/downloads/)
-  - Alien8
+* BadBeard
+  - Dynamite Dan 2
+* [Lunysoft](http://www.luny.co.uk)
+  - Tir Na Nog
+  - Dun Darach
 * [tcdev](http://members.iinet.net.au/~msmcdoug/zx/)
   - Alien8
   - Knight Lore
+* [Christopher Jon Wild](http://www.icemark.com/downloads/)
+  - Alien8
 
 
 ## General Skoolkit Usage
