@@ -40,6 +40,8 @@ know. My email is available in the `git log`.
   - Knight Lore
 * [Christopher Jon Wild](http://www.icemark.com/downloads/)
   - Alien8
+* Simon Owen
+  - Atic Atac
 
 
 ## General Skoolkit Usage
