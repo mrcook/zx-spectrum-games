@@ -14,8 +14,8 @@ Over the years I've encountered a number of disassemblies provided in the same
 format such as _Knight Tyme_ and _Spellbound_.
 
 So, one Saturday toward the end of 2019 I decided to have a little fun with a
-_weekend project_ and write a small tool ([html2skool](https://github.com/mrcook/skoolkit-html2skool))
-to reverse these HTML pages back to a Skoolkit `.skool` project file.
+_weekend project_ and write a small tool to reverse these HTML pages back to a
+Skoolkit `.skool` project file.
 
 This collection also contains hand converted `asm`->`skool` disassemblies.
 
@@ -44,11 +44,16 @@ know. My email is available in the `git log`.
   - Atic Atac
 
 
+**Jetpac** in 2018 I created a fully annotated disassembly of the fantastic
+[Jetpac](https://github.com/mrcook/jetpac-disassembly) game, which you might
+also find interesting.
+
+
 ## General Skoolkit Usage
 
 Visit [Skoolkit](https://skoolkit.ca/) and read the docs.
 
-You'll need to the original `.tzx` tape image, easily found on the inter-webs.
+You will need the original `.tzx` tape image, easily found on the inter-webs.
 
 
 ## Related Tools
