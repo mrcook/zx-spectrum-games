@@ -1,31 +1,28 @@
-# ZX Spectrum Game Disassemblies
+# ZX Spectrum Game Disassembly Collection
 
 A collection of classic 1980's ZX Spectrum games, disassembled, annotated,
 and provided here in the Skoolkit `.skool` format.
 
-**The Why**
+The disassemblies in this collection were either converted from the Skoolkit
+HTML output back to the original `skool` format, or from plain Z80 assembly
+files. Skoolkit is a great tool for aiding disassembly of Z80 based programs,
+and in particular 8-bit computer games for the ZX Spectrum, making this a
+useful source format to use.
 
-Once upon a tyme, I was interested in reading the _Tir Na Nog_ source code, as
-annotate by Lunysoft, however, this was only available as a set of Skoolkit
-`skool2html.py` generated HTML pages. Although these pages are nice to look at,
-they are not very easy for reading the source code.
+In the decades since these games were created, many people have created
+annotated disassemblies, however, many of those are no longer available, or at
+best only available on the Internet Archive. This collection was created as a
+central place to bring together these previous efforts while also providing
+another, hopefully long living, archive.
 
-Over the years I've encountered a number of disassemblies provided in the same
-format such as _Knight Tyme_ and _Spellbound_.
 
-So, one Saturday toward the end of 2019 I decided to have a little fun with a
-_weekend project_ and write a small tool to reverse these HTML pages back to a
-Skoolkit `.skool` project file.
+## The Collection
 
-This collection also contains hand converted `asm`->`skool` disassemblies.
+_Ask forgiveness, not permission._ This collection is made from the excellent
+work of other people. If you are one of these, and wish me to remove the
+included disassembly, please let me know. My email is available in the `git log`.
 
-_Ask forgiveness, not permission._
-
-This collection is made from the excellent work of other people. If you are
-one of these, and wish me to remove the included disassembly, please let me
-know. My email is available in the `git log`.
-
-* [Philip Anderson](http://community.dur.ac.uk/philip.anderson/disassemblies/)
+* Philip Anderson
   - Knight Tyme (48K)
   - Spellbound (48K)
   - Stormbringer (48k)
@@ -44,32 +41,37 @@ know. My email is available in the `git log`.
   - Atic Atac
 
 
-**Jetpac** in 2018 I created a fully annotated disassembly of the fantastic
-[Jetpac](https://github.com/mrcook/jetpac-disassembly) game, which you might
-also find interesting.
+## Additional Projects
+
+* [JetPac](https://github.com/mrcook/jetpac-disassembly), in 2018 I created a
+  fully annotated disassembly of this classic game.
+* [Chuckie Egg](https://github.com/mrcook/chuckie-egg-disassembly), a very much incomplete
+  disassembly I started after Jetpac, but still contains a lot of useful information.
+* The creator of Skoolkit has made several excellent disassemblies including;
+  [Skool Daze](https://github.com/skoolkid/skooldaze), [Back to Skool](https://github.com/skoolkid/backtoskool),
+  [Manic Miner](https://github.com/skoolkid/manicminer), and [Jet Set Willy](https://github.com/skoolkid/jetsetwilly).
+* [The Great Escape](https://github.com/dpt/The-Great-Escape), David Thomas has
+  been working on this very complete disassembly for several years now.
+* [Paul Maddern](https://github.com/pobtastic) has several Work In Progress disassemblies
+  including; The Hobbit, Wheelie, PSSST, and The Way of the Exploding Fist.
+* 3D [Deathchase](https://github.com/Ritchie333/deathchase) disassembled by Ritchie Swann.
 
 
 ## General Skoolkit Usage
 
 Visit [Skoolkit](https://skoolkit.ca/) and read the docs.
 
-You will need the original `.tzx` tape image, easily found on the inter-webs.
+You will need the original `.tzx` tape image (or `z80` snapshot) if you wish
+to make further additions to the annotations.
 
 
-## Related Tools
+## Code Editor Tools
 
 If you're a **SublimeText** editor user, I've created syntax highlighting
 plugins to make viewing `.skool` and `.asm` files a little nicer:
 
 * [SkoolkitZ80](https://packagecontrol.io/packages/SkoolkitZ80) syntax package.
 * [Z80 Assembly](https://packagecontrol.io/packages/Z80%20Assembly) syntax package.
-
-### Reading Tape and Disk Files
-
-If you have a need to read the metadata found in the tape and disk files used
-by emulators - such as the ZX Spectrum `tzx` or Commodore 64 `t64` files - you
-may be interested in my [`RetroIO`](https://github.com/mrcook/retroio) terminal
-app, which happens to be written in the Go language (golang).
 
 Cheers,
 Michael Cook
