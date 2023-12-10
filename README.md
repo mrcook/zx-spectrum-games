@@ -45,6 +45,8 @@ included disassembly, please let me know. My email is available in the `git log`
 
 * [JetPac](https://github.com/mrcook/jetpac-disassembly), in 2018 I created a
   fully annotated disassembly of this classic game.
+* [The Lords of Midnight](https://github.com/mrcook/lords-of-midnight-disassembly), contains
+  disassemblies of both the ZX Spectrum and DOS (1991) versions of the game.
 * [Chuckie Egg](https://github.com/mrcook/chuckie-egg-disassembly), a very much incomplete
   disassembly I started after Jetpac, but still contains a lot of useful information.
 * The creator of Skoolkit has made several excellent disassemblies including;
