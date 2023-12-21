@@ -59,8 +59,9 @@ included disassembly, please let me know. My email is available in the `git log`
 * [The Great Escape](https://github.com/dpt/The-Great-Escape), David Thomas has
   been working on this very complete disassembly for several years now.
 * [Paul Maddern](https://github.com/pobtastic) has several Work In Progress disassemblies
-  including; The Hobbit, Wheelie, PSSST, and The Way of the Exploding Fist.
-* 3D [Deathchase](https://github.com/Ritchie333/deathchase) disassembled by Ritchie Swann.
+  including; The Hobbit, Trashman, Wheelie, PSSST, and The Way of the Exploding Fist.
+* [Ritchie Swann](https://github.com/Ritchie333) has disassembled several games
+  including 3D Deathchase, Everyone's A Wally, and Starquake.
 
 
 ## General Skoolkit Usage
