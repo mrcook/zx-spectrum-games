@@ -39,6 +39,10 @@ included disassembly, please let me know. My email is available in the `git log`
   - Alien8
 * Simon Owen
   - Atic Atac
+* UsuallyDavid
+  - [Chaos](https://szeliga.zapto.org/stuff/Chaos/UsuallyDavid/)
+* Guesser & Szeliga
+  - [Chaos](https://szeliga.zapto.org/stuff/Chaos/chaos.html)
 
 
 ## Additional Projects
