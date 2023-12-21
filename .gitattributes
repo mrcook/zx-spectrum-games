@@ -1,1 +1,3 @@
 *.skool linguist-language=Assembly
+*.ctl text
+*.t2s text
