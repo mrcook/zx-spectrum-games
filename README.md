@@ -62,7 +62,8 @@ included disassembly, please let me know. My email is available in the `git log`
   including; The Hobbit, Trashman, Wheelie, PSSST, and The Way of the Exploding Fist.
 * [Ritchie Swann](https://github.com/Ritchie333) has disassembled several games
   including 3D Deathchase, Everyone's A Wally, and Starquake.
-
+* [Chaos - The Battle of Wizards](https://github.com/ZXGuesser/chaos-disassembly) is a
+  disassembly built on the Chaos files in this repo.
 
 ## General Skoolkit Usage
 
